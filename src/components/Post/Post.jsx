@@ -1,7 +1,7 @@
 import React from "react";
 
 const Post = (props) => {
-  const { _id, picture, authorPicture, blogTitle, age, name, minute } =
+  const { _id, picture, authorPicture, blogTitle, name, minute, published } =
     props.singleData;
   return (
     <div className="my-4">
@@ -19,7 +19,7 @@ const Post = (props) => {
               />
               <div>
                 <h2 className="card-title">{name}</h2>
-                <small>Age : {age}</small>
+                <small>{published}</small>
               </div>
             </div>
             <div className="flex gap-2">
