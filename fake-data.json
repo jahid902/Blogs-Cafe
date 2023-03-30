@@ -1,0 +1,39 @@
+[
+    {
+      "_id": "6425c8b70ed30221e394117c",
+      "index": 0,
+      "picture": "./public/coding-on-laptop.jpg",
+      "authorPicture": "./public/download (2).jpeg",
+      "age": 40,
+      "name": "Cherie Morse",
+      "blogTitle": "How to get your first job as a self-taught programmer"
+    },
+    {
+      "_id": "6425c8b75c0e4fee4548fe2c",
+      "index": 1,
+      "picture": "./public/developing-programmer-team-development-website-design-coding-technologies-working-software-company-office-developing-137787549.jpg",
+      "authorPicture": "./public/download (3).jpeg",
+      "age": 39,
+      "name": "Estelle Fletcher",
+      "blogTitle": "How to be a professional and confident programmer"
+    },
+    {
+      "_id": "6425c8b7a519d83550e04acb",
+      "index": 2,
+      "picture": "./public/download (1).jpeg",
+      "authorPicture": "./public/download (4).jpeg",
+      "age": 32,
+      "name": "Holden Mueller",
+      "blogTitle": "A programmer with ambitions and dreams"
+    },
+    {
+      "_id": "6425c8b7127af1b62c536f58",
+      "index": 3,
+      "picture": "./public/istockphoto-1344688156-170667a.jpg",
+      "authorPicture": "./public/download (5).jpeg",
+      "age": 25,
+      "name": "Puckett Conway",
+      "blogTitle": "It takes time and patience - A programmer's story"
+    }
+    
+  ]
