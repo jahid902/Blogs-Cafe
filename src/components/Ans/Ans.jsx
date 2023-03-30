@@ -2,31 +2,31 @@ import React from "react";
 
 const Ans = () => {
   return (
-    <div className="my-16 text-center border-2 border-red-700 p-4">
+    <div className="my-16 text-center border-2 border-red-700 p-4 bg-emerald-100">
         <h1 className="text-2xl font-extrabold my-4">Question & Answers section</h1>
       <div>
         <h1 className="font-bold text-xl">Props vs state?</h1>
         <p>
           <strong>Props:</strong>
-          <ul>Props are read-only components.</ul>
-          <ul>Props are immutable.</ul>
-          <ul>Props can not be modified.</ul>
-          <ul>
+          <li>Props are read-only components.</li>
+          <li>Props are immutable.</li>
+          <li>Props can not be modified.</li>
+          <li>
             Props allow you to pass data from one component to other components
             as an argument.
-          </ul>
-          <ul>Props can be accessed by the child component.</ul>
-          <ul>Props are used to communicate between components.</ul>
+          </li>
+          <li>Props can be accessed by the child component.</li>
+          <li>Props are used to communicate between components.</li>
           <strong>State:</strong>
-          <ul>
+          <li>
             The state is an updatable structure that is used to contain data or
             information about the component and can change over time.
-          </ul>
-          <ul>State changes can be asynchronous.</ul>
-          <ul>State is mutable.</ul>
-          <ul>State can be modified using this.setState</ul>
-          <ul>State holds information about the components.</ul>
-          <ul>State cannot be accessed by child components.</ul>
+          </li>
+          <li>State changes can be asynchronous.</li>
+          <li>State is mutable.</li>
+          <li>State can be modified using this.setState</li>
+          <li>State hlids information about the components.</li>
+          <li>State cannot be accessed by child components.</li>
         </p>
       </div>
       <div className="my-4">
