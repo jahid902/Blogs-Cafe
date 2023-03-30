@@ -20,7 +20,7 @@
     {
       "_id": "6425c8b7a519d83550e04acb",
       "index": 2,
-      "picture": "./public/download (1).jpeg",
+      "picture": "./public/pexels-luis-gomes-546819.jpg",
       "authorPicture": "./public/download (4).jpeg",
       "age": 32,
       "name": "Holden Mueller",
@@ -29,7 +29,7 @@
     {
       "_id": "6425c8b7127af1b62c536f58",
       "index": 3,
-      "picture": "./public/istockphoto-1344688156-170667a.jpg",
+      "picture": "./public/pexels-kevin-ku-577585.jpg",
       "authorPicture": "./public/download (5).jpeg",
       "age": 25,
       "name": "Puckett Conway",

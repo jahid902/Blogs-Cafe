@@ -13,12 +13,17 @@ const Main = () => {
         }
         loadData();
     },[]);
-    console.log(news);
 
     return (
         <div className='grid grid-cols-1 md:grid-cols-2 gap-4 mx-10 my-14'>
-         <Post></Post>
-         <Sidebar></Sidebar>
+         <div>
+         {
+            news.map(singleNews =><Post singleData={singleNews} key={singleNews._id} ></Post>)
+         }
+         </div>
+         <div>
+            <Sidebar></Sidebar>
+        </div>
         </div>
     );
 };
