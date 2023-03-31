@@ -3,6 +3,7 @@ import React from "react";
 const Post = (props) => {
   const { _id, picture, authorPicture, blogTitle, name, minute, published } =
     props.singleData;
+    
   return (
     <div className="my-4">
       <div className="card w-full bg-base-100 shadow-xl">
@@ -17,7 +18,7 @@ const Post = (props) => {
                 src={authorPicture}
                 alt=""
               />
-              <div>
+              <div className="order-2">
                 <h2 className="card-title">{name}</h2>
                 <small>{published}</small>
               </div>
@@ -26,7 +27,7 @@ const Post = (props) => {
               <div>
                 <p>{minute} min read</p>
               </div>
-              <span className="cursor-pointer">
+              <span onClick={()=> props.blogTitle(blogTitle)} className="cursor-pointer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -46,7 +47,7 @@ const Post = (props) => {
           </div>
           <h1 className="text-2xl font-bold my-3">{blogTitle}</h1>
           <div className="card-actions justify-start">
-            <button className="btn btn-link">Mark as read</button>
+            <button onClick={()=> {props.timeCount(minute)}} className="btn btn-link">Mark as read</button>
           </div>
         </div>
       </div>

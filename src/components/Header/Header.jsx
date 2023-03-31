@@ -3,7 +3,7 @@ import React from 'react';
 const Header = () => {
     return (
         <div>
-            <div className='flex justify-between px-8 md:px-14 mt-2'>
+            <div className='flex justify-between px-8 md:px-14 pt-3'>
             <div>
                 <h1 className='text-2xl font-bold'>Blog Knowledgia</h1>
             </div>
