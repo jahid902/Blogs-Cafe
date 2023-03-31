@@ -7,6 +7,7 @@ const Main = () => {
     const [news, setNews] = useState([]);
     const [time, setTime] = useState(0);
     const [blogTitle, setBlogTitle] = useState([]);
+    const [count, setCount] = useState(0)
     
 
     const showTime = (readTime) =>{
@@ -17,12 +18,12 @@ const Main = () => {
     const title = (title) =>{
         // const getPost = ...blogTitle + title;
         // console.log(getPost);
+        setCount(count+1);
     
     setBlogTitle([...blogTitle, title]);
       
     }
 
-    console.log(blogTitle);
     
     useEffect(()=>{
         const loadData = async() =>{
@@ -46,6 +47,7 @@ const Main = () => {
          <div>
             <Sidebar
             time={time}
+            counter={count}
             blogName={blogTitle}
             ></Sidebar>
         </div>
