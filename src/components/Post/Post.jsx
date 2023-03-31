@@ -12,8 +12,8 @@ const Post = (props) => {
 
       const anime =() => {
         Swal.fire(
-          "Good job",
-          "it's safe with me ! ! !",
+          "Task complete",
+          "Have fun reading",
           'success'
         )
       }
@@ -64,7 +64,7 @@ const Post = (props) => {
           </div>
           <h1 className="text-2xl font-bold my-3">{blogTitle}</h1>
           <div className="card-actions justify-start">
-          <button onClick={()=> {props.timeCount(minute)}} className="btn btn-link">Mark as read</button>
+          <button onClick={()=> {props.timeCount(minute); anime()}} className="btn btn-link">Mark as read</button>
           </div>
         </div>
       </div>

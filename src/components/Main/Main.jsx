@@ -6,7 +6,7 @@ const Main = () => {
     
     const [news, setNews] = useState([]);
     const [time, setTime] = useState(0);
-    const [blogTitle, setBlogTitle] = useState([]);
+    const [blogTitle, setBlogTitle] = useState("");
     const [count, setCount] = useState(0)
     
 
@@ -20,7 +20,7 @@ const Main = () => {
         // console.log(getPost);
         setCount(count+1);
     
-    setBlogTitle([...blogTitle, title]);
+    setBlogTitle(blogTitle + title);
       
     }
 
