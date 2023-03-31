@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Swal from 'sweetalert2'
 
 const Post = (props) => {
-  const { _id, picture, authorPicture, blogTitle, name, minute, published } =
+  const { picture, authorPicture, blogTitle, name, minute, published } =
     props.singleData;
     const [clicked, setClicked] = useState(true);
 

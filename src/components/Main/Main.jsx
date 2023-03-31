@@ -15,11 +15,8 @@ const Main = () => {
     }
     
     
-    const title = (title) =>{
-        // const getPost = ...blogTitle + title;
-        // console.log(getPost);
-        setCount(count+1);
-    
+    const title = (title) =>{        
+        setCount(count+1);    
     setBlogTitle(blogTitle + title);
       
     }

@@ -3,10 +3,6 @@ import Blogs from '../Blogs/Blogs';
 
 const Sidebar = (props) => {
 
-    // console.log(props);
-    // const {blogTitle} = props.blogName;
-    // <h1 className='text-xl font-bold px-6 '>{props.blogName} </h1>
-
     return (
         <div className='bg-slate-200 text-center my-4'>
             <div className='border-2 border-indigo-700 rounded-lg'>
