@@ -2,8 +2,8 @@
     {
       "_id": "6425c8b70ed30221e394117c",
       "index": 0,
-      "picture": "./public/coding-on-laptop.jpg",
-      "authorPicture": "./public/download (2).jpeg",
+      "picture": "/coding-on-laptop.jpg",
+      "authorPicture": "/download (2).jpeg",
       "published": "january 20 (2 days ago)",
       "name": "Cherie Morse",
       "minute": 4,
@@ -12,8 +12,8 @@
     {
       "_id": "6425c8b75c0e4fee4548fe2c",
       "index": 1,
-      "picture": "./public/developing-programmer-team-development-website-design-coding-technologies-working-software-company-office-developing-137787549.jpg",
-      "authorPicture": "./public/download (3).jpeg",
+      "picture": "/developing-programmer-team-development-website-design-coding-technologies-working-software-company-office-developing-137787549.jpg",
+      "authorPicture": "/download (3).jpeg",
       "published": "march 10 (5 days ago)",
       "name": "Estelle Fletcher",
       "minute": 5,
@@ -22,8 +22,8 @@
     {
       "_id": "6425c8b7a519d83550e04acb",
       "index": 2,
-      "picture": "./public/pexels-luis-gomes-546819.jpg",
-      "authorPicture": "./public/download (4).jpeg",
+      "picture": "/pexels-luis-gomes-546819.jpg",
+      "authorPicture": "/download (4).jpeg",
       "published": "june 27 (3 days ago)",
       "name": "Holden Mueller",
       "minute": 10,
@@ -32,8 +32,8 @@
     {
       "_id": "6425c8b7127af1b62c536f58",
       "index": 3,
-      "picture": "./public/pexels-kevin-ku-577585.jpg",
-      "authorPicture": "./public/download (5).jpeg",
+      "picture": "/pexels-kevin-ku-577585.jpg",
+      "authorPicture": "/download (5).jpeg",
       "published": "october 8 (3 days ago)",
       "name": "Puckett Conway",
       "minute": 8,
